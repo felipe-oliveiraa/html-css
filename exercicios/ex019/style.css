@@ -1,0 +1,36 @@
+@charset "UTF-08";
+
+body {
+    background-color: rgb(59, 147, 224);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1  {
+    color: rgba(179, 13, 13, 0.918);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(21, 48, 168);
+    color: white;
+}
+
+h2 {
+    color: rgb(67, 6, 124);
+}
+
+.basico{
+    color: blue;
+
+
+}
+
+.intermediario{
+    color: brown;
+
+}
+
+.avancado{
+
+    color: yellowgreen;
+}
