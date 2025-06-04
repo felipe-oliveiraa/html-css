@@ -7,17 +7,27 @@
     <style>
         body {
             height: 98vh;
-            background-color: black; /* Cor de fundo para contraste */
+           /* 
+           background-color: black; /* Cor de fundo para contraste */
             /* Definindo a imagem de fundo */
-            background-image: url('imagens/wallpaper002.jpg');
-            background-position: center center;
-            background-repeat: no-repeat; /* Evita repetição da imagem */
-            background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+            /*background-image: url('imagens/wallpaper002.jpg');
+            /*background-position: center center;
+            /*background-repeat: no-repeat; /* Evita repetição da imagem */
+            /*background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+            /*background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */ 
+
+            /* shorthand para definir todas as propriedades de fundo com a tag background nesta sequência:
+            color[cor], imagem[url], posição[position], repetição[repeat], {tamanho #} e attachment.
+            #porem o tamanho 'size' tem que colocar separado pois não esta funcionando no shorthand */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover; 
+            
         }
         /* Estilizando o conteúdo principal */
 
         main {
-           background-color: white; /* Cor de fundo do conteúdo */width: 400px; /* Largura do conteúdo */
+           background-color: white; /* Cor de fundo do conteúdo */max-width: 400px; /* Largura do conteúdo */
             padding: 10px; /* Espaçamento interno */
             margin: auto; /* Centraliza o conteúdo na página */
             border: 1px solid blue; /* Borda azul ao redor do conteúdo */
