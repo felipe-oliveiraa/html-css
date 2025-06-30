@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         th, td {
@@ -30,6 +31,13 @@
         thead, tfoot {
             background-color: #0f0f0fe3;
             color: white;
+        }
+
+        thead tr th  {
+            position: sticky; /* Fixa o cabeçalho */
+            top: -1px; /* Fixa o cabeçalho no topo */
+            background-color: #0f0f0fe3; /* a mesma Cor de fundo do cabeçalho 'thead'*/
+
         }
 
         tbody tr:nth-child(even) { /* even = Linhas pares */
