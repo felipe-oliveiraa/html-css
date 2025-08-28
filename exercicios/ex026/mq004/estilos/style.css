@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* configuração padrão de todas as media queries */
+
+* {
+    margin: 0px;/* remove margens padrão */
+    padding: 0px;/* remove margens e espaçamentos padrão */
+    font-size: 1em;/* tamanho da fonte padrão */
+    box-sizing: border-box;/* inclui a borda na largura do elemento */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    height: 100vh; /* 100% da altura da tela */
+}
+
+body {
+    background: black url(../imagens/back-phone.jpg) no-repeat; /* imagem de fundo */
+    background-size: cover;/* cobre toda a tela */
+    background-position: center center; /* centraliza a imagem */
+}
+
+main {
+    background-color: rgba(187, 183, 183, 0.877);
+    width: 400px;/* largura fixa */
+    margin: auto;/* centraliza horizontalmente */
+    margin-top: 20px;/* margem superior */
+    border-radius: 10px;/* borda arredondada */
+    padding: 10px;/* espaçamento interno */
+}
+
+h1 {
+    text-align: center;/* centraliza o texto */
+    color: white;/* cor do texto */
+    font-size: 2em;/* tamanho da fonte */
+    text-shadow: 2px 2px 5px black;/* sombra do texto */
+}
+
+img {
+    display: block;/* remove o espaço embaixo da imagem */
+    margin: auto;/* centraliza a imagem */
+}
+
+img#phone { display: block;}/* exibe a imagem celular */
+img#tablet { display: none;}/* oculta a imagem tablet */
+img#print { display: none;}/* oculta a imagem impressão */
+img#pc { display: none;}/* oculta a imagem pc*/
+img#tv { display: none;}/* oculta a imagem TV */
