@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media (min-width: 768px) {
+    span#burguer {
+        display: none; /* esconde o menu hamburguer */
+    }
+
+    menu {
+        display: block; /* mostra o menu */
+    }
+
+    menu ul li  {
+        display: inline-block; /* deixa os links na horizontal */
+        
+    }
+
+    main {
+        width: 768px;
+    }
+}
