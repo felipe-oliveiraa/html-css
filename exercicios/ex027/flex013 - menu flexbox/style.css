@@ -28,6 +28,7 @@ header {
 header h1 {
    border: 1px dotted black;
    flex: 0 0 150px;
+   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.308);
 }
 
 header nav {
@@ -61,5 +62,6 @@ main {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.233);
+
 }
  
