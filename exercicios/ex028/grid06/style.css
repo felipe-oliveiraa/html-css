@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3,100px);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.caixa1 {
+    background-color: red;
+   
+    grid-area: 1 / 1 / 2 / -1 ; /* shorthando do grid-row-start: 1; grid-row-end: 2;  grid-column-start: 1; grid-column-end: -1;*/
+
+    
+}
+
+.caixa2 {
+    background-color: green;
+    grid-area: 2 / 1 / span 2 / span 2   ; /* posso usar o span */
+    
+}  
+
+.caixa3 {
+    background-color: blue;
+    grid-area: 2 / 3 / 4 / 5;
+    
+   }
